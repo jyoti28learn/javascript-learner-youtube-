@@ -27,3 +27,22 @@ let function2 = function(){
 }
 
 console.log(typeof(function2))//function :object function
+
+
+//******************************MEMORY*****************************/
+//STACK:in primitive
+//HEAP: IN NON PRIMITIVE
+
+let ytname ="meLearningdotcom"
+let anotherName =ytname
+console.log(anotherName)//meLearningdotcom
+anotherName="jyoti"
+console.log(anotherName,ytname)//jyoti meLearningdotcom
+
+let user={
+    email:"usedMaail@google.com",
+    upi:"bhim@ybl"
+}
+let user2=user
+user2.email="change@google.com"
+console.log(user2.email,user.email)//change@google.com change@google.com
