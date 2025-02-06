@@ -3,3 +3,5 @@
 //selector elements- getElementById , querySekctor and all , 
 //nodelist are not arrays :always use forEach(()=>{}) to access like array
 //to convert HTML collection to array: Array.from(value)
+//const titlee =document.getElementById('firstHeading')
+//titlee.innerText='Will you be my Valentine?'
